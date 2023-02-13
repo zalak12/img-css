@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1>Responsive Image Grid</h1>
+  <p>Resize the browser window to see the responsive effect.</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc7C33sGuIHtWLt11pxIeDzk_nSdZyIHjfTQ&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtPgZbJJvKoYe-mYc4Ff4kzEjK7Bw4FQHYA&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzlcpN97hkirp3ViXKZt4l8raF2U2g5Jt4dA&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQieTtA5LS-wPedxp6c7bluCng6TFc1SEyHhA&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2a_zxxL3j8SR7OGKBssYSFD1W8J-4AYV58Cr8aTzWkc1elJRprpO8EXMsgyZuwHDKFDA&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjbowSmgiq_oZjMibeNs98_vpQkaU-ZqHM2A&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-JxU5AjAKpfZqoasHY3DrJKMETfrIUAiUQw&usqp=CAU" style="width:100%">
+  </div>
+   
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJXNeLQmape5bKf11xi5kAlvaHZqPtcLYdKw&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywu50VDtRIe-3dSOzkYpVn1K4K9o-H4ZFBcBaKAINpgAj_bj9ACkwVfNlJcaHusKrOhM&usqp=CAU" style="width:100%">
+    <img src="https://www.cnet.com/a/img/resize/71c07bc875c0345f5a60724b9c2ce01df318da18/hub/2022/09/17/80739641-1fb4-4bce-b4e0-b1cfb960468d/20220916-iphone-14-pro-05.jpg?auto=webp&fit=crop&height=675&width=1200" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-1w9uco1qJj2W891i0HE4TvxbEQe2kM62Q&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThf2LTx1RFyjcIg0OBpHhoisfjfQxTBgZTBQ&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGoeE7WuNNZwjwRxzBr_xWKNgI7nk-cusBsA&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBn62P8Z73tZmbHPby1xiXotEZSyodYgjrbeuCiqh-aHu4ENBwp7je2d4zHIbkDGlzYYs&usqp=CAU" style="width:100%">
+  </div>
+
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8sUXKaWBrTEKCzg6R4pZ26MdhHBCDpCKM2w&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN3MnYvGH2ghzoucPcWmp5J5VSE6S_qyg4CQ&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjTF5Zmg8EF4Ou6Y1fiUVZ8K7P_kD3sW9KA&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZNuVEP-JwTJjJKbII-Sf9BX14XINZrznZmAumQLYZfU2pWdVIQMIzVXTFmhp_3gQz-LI&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWNuEA5D6XiaLeIKpd-i_eTKiYCpQ8lQzNxg&usqp=CAU style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmdDtkcSsSTPfGU4SVBA_Xym5B1gnCKR3VaQ&usqp=CAU" style="width:100%">
+  </div> 
+   
+  
+  <div class="column">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTieUBlSD7-HpaSz1wJlyxwurNvhuhQzYF0qVIzmBbhrf7L3Vf8PinfEidxkpY_ccyoG_o&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyHaJBY8_MgObdHs21YV0DynANox4wBHZ1bw&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3D92vvedOY6ACvRXNqs58cq6r2gpJ_kHX9w&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbcFWbCBCYEj6WMWu_CIJOHp4hz3Im0xr31SY_Jdm_ENdEJ59QstJLgEz0Gp0NEQlpdDc&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR08cbL6_hbxsSXHx4oKeloQJhaObBR_epJXg&usqp=CAU" style="width:100%">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvmyQ7NKc5xxVXq-gFQjM6WlEPooEp1NW4qQ&usqp=CAU" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
